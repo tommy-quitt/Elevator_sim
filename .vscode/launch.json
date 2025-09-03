@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+      {
+            "name": "Elevator Sim: 2 Elevators, 8 Floors, 5s Interval, Logging",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Elevator_sim/elevator_sim.py",
+            "console": "integratedTerminal",
+            "args": [
+                "--num_elevators", "2",
+                "--num_floors", "8",
+                "--request_interval", "5",
+                "--log"
+            ]
+        }
+    ]
+}
